@@ -34,3 +34,6 @@ This article is a commentary on Preservation. Preservation uses the delegate cal
 ⑤Since the target address of the delegatecall has been changed to MyLibraryContract in the setFirstNumber function of Preservation, the owner is changed by the setNumber function.
 
 <img width="601" alt="スクリーンショット 2021-01-11 8 02 57" src="https://user-images.githubusercontent.com/11623099/104138152-b8eba800-53e5-11eb-8224-2dd7f46cf3ee.png">
+
+### Where is the problem?
+In the case of delegatecall, it is necessary to match the storage structure of each other's contracts.
